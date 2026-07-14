@@ -59,3 +59,14 @@ Choose a `.json` file location. After that, completed task history will be writt
 
 Active tasks are local to the current editor window. Completed tasks are the part that gets saved into the shared history file.
 
+## Possible future improvements
+
+This is an early release. Possible future improvements include:
+
+- better handling of stale or missing usage data
+- clearer warnings when the tracker cannot find fresh Codex session data
+- improved task burn estimates
+- optional charts or weekly summaries
+- better support for multi-window and multi-project workflows
+- support for restored or changed 5-hour usage signals if OpenAI exposes them again
+
