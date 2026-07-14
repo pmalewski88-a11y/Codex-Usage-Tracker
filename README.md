@@ -39,6 +39,14 @@ The extension currently treats weekly Codex usage as the primary live signal and
 
 OpenAI's visible 5-hour Codex meter has recently become inconsistent or unavailable in some surfaces, so this extension currently focuses on weekly usage as the most reliable live value.
 
+## Accuracy note
+
+Codex Usage Tracker reads usage signals from local Codex/session data when that data is available. Because this is not an official billing or quota API, the displayed value can sometimes be delayed, stale, incomplete, or temporarily wrong.
+
+In practice, the tracker may occasionally show values such as `0%`, `100%`, or an older weekly value when fresh data has not been written yet. It usually corrects itself once newer Codex session data becomes available.
+
+Treat the extension as a practical usage tracker and warning aid, not as an authoritative quota meter.
+
 ## History storage
 
 Codex Usage Tracker works immediately after installation. By default, it stores task history in the editor's local extension storage.
