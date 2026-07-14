@@ -17,11 +17,10 @@ This project is currently weekly-first. OpenAI's visible 5-hour meter has become
 ## Installation
 
 1. Download the latest `.vsix` file from the Releases section. https://github.com/threshold-lion/Codex-Usage-Tracker/releases/tag/v0.1.0
-3. In Cursor or VS Code, open the Extensions view.
-4. Open the Extensions menu in the top-right corner.
-5. Choose `Install from VSIX...`
-6. Select the downloaded `.vsix` file.
-7. Reload the editor if prompted.
+2. In Cursor or VS Code, Press `F1` or `Ctrl+Shift+P`.
+3. Run `Extensions: Install from VSIX...`.
+4. Select the downloaded `.vsix` file.
+5. Reload the editor if necessary.
 
 ## Usage
 
