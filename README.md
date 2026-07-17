@@ -1,3 +1,6 @@
+
+<img width="392" height="232" alt="codex usage tracker in cursor" src="https://github.com/user-attachments/assets/e8b56502-c065-4c1d-b2f7-a0d0ddadb5a4" />
+
 # Codex Usage Tracker
 
 Codex Usage Meter is a lightweight Cursor and VS Code extension for tracking Codex usage with minimal friction.
